@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+  /* para alinear el contenido del navbar a la ezquierda */
+.navbar-nav {
+  margin-left: auto;
+}
+
+.fondonegro {
+
+  background-color: black;
+
+}
+.navbar-scrolled {
+  background-color: #e3f2fd !important;
+  /* Cambia este color  */
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+footer {
+  background-color: #0BDCF3;
+}
+
+.card-img-top {
+  height: 200px;
+  /* Establece la altura deseada para las imágenes */
+  object-fit: cover;
+  /* Ajusta la imagen para que cubra todo el espacio disponible */
+}
+ /* para darle tamaño a los i del footer*/
+.smol {
+  font-size: 30px;
+}
+  /* oscultar las card en pantallas pequeñas */
+@media (max-width: 768px) {
+  .hidden-sm {
+    display: none;
+  }
+}
