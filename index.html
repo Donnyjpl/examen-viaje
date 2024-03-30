@@ -24,7 +24,7 @@
     <!-- clase  fixed-top para que quede fijo-->
     <!-- clase  transparent para que no se note cuando pase por lo demas contenedores-->
 
-    <section id="inicio">
+    <section>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent;">
             <div class="container">
                 <img src="assets/img/viajes.svg" alt="" width="30px">
@@ -54,73 +54,77 @@
     </section>
     <!-- Fin navbar  -->
     <!-- carousel principal -->
-
-
     <section>
-        <div class=" px-0">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-                    </div>
+        <div id="inicio" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
     <!-- quienes somos -->
     <section class="px-5" id="quienes-somos">
         <h2 class="text-center fw-bold text-white pb-5 pt-5">¿QUIENES SOMOS?</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 container">
-            <article  class="col hidden-sm">
-                
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                                quidem sequi
-                                similique
-                                in ea laborum inventore veniam! Facere, impedit! Rerum quidem possimus eum odit
-                                fugiat est
-                                ipsa atque odio
-                                dicta?</p>
-                            <div class="col-12 bg-info text-center"><i class="fa-solid fa-plane"></i></div>
-                        </div>
+            <article class="col hidden-sm">
+
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                            quidem sequi
+                            similique
+                            in ea laborum inventore veniam! Facere, impedit! Rerum quidem possimus eum odit
+                            fugiat est
+                            ipsa atque odio
+                            dicta?</p>
+                        <div class="col-12 bg-info text-center"><i class="fa-solid fa-plane"></i></div>
                     </div>
+                </div>
             </article>
-            <article  class="col hidden-sm">
-            
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="col-12 bg-info text-center"><i class="fa-solid fa-mountain"></i></div>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laudantium,
-                                tenetur iste ipsa
-                                voluptates facere reprehenderit ab earum qui, in atque omnis molestias, expedita
-                                magnam
-                                exercitationem.
-                                Officiis temporibus veritatis praesentium voluptatum.</p>
-                        </div>
+            <article class="col hidden-sm">
+
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="col-12 bg-info text-center"><i class="fa-solid fa-mountain"></i></div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laudantium,
+                            tenetur iste ipsa
+                            voluptates facere reprehenderit ab earum qui, in atque omnis molestias, expedita
+                            magnam
+                            exercitationem.
+                            Officiis temporibus veritatis praesentium voluptatum.</p>
                     </div>
+                </div>
             </article>
-            <article  class="col hidden-sm">
-                
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                                quibusdam
-                                odit itaque,
-                                harum ad tempore consequatur ut ea vel! Eligendi enim optio vitae! Debitis explicabo
-                                sit
-                                quia, repellat
-                                deserunt porro!</p>
-                            <div class="col-12 bg-info text-center"><i class="fa-solid fa-route"></i></div>
-                        </div>
+            <article class="col hidden-sm">
+
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                            quibusdam
+                            odit itaque,
+                            harum ad tempore consequatur ut ea vel! Eligendi enim optio vitae! Debitis explicabo
+                            sit
+                            quia, repellat
+                            deserunt porro!</p>
+                        <div class="col-12 bg-info text-center"><i class="fa-solid fa-route"></i></div>
                     </div>
+                </div>
         </div>
         </article>
     </section>
@@ -186,7 +190,7 @@
     <section class=" px-5 text-white" id="contacto">
 
         <h2 class="fw-bold pt-5 text-center">CONTACTO</h2>
-        <form class="pb-5 container" >
+        <form class="pb-5 container">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1">
@@ -215,10 +219,10 @@
                     <p class="fw-bold pt-2">VIAJES CHILE</p>
                 </div>
                 <div class="col-6">
-                        <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-github "></i></a>
-                        <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-linkedin "></i></a>
-                        <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-square-twitter "></i></a>
-                        <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-facebook "></i></a>
+                    <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-github "></i></a>
+                    <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-linkedin "></i></a>
+                    <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-square-twitter "></i></a>
+                    <a class="text-reset px-1 smol" href="#"><i class="fa-brands fa-facebook "></i></a>
                 </div>
             </div>
         </section>
